@@ -1,14 +1,36 @@
 
-    <head>
-        <link rel="stylesheet"
-        href = "style.css">
-    </head>
+<head>
+    <link rel="stylesheet" href = "style.css">
+    <script>
+        function add_ingredient() {
+            console.log("Hi!");
+            var table = document.getElementById("ingredient-table");
 
-    <body>
-<h1>Let's make a recipe ^_^</h1>
-<form action="view-recipes.html">
-    <p>recipe name:
-    </p>
+            table.innerHTML += `
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            `;
+        }
+        function add_step (){
+            console.log("Hi!");
+            var steptable = document.getElementById("step-table");
+            steptable.innerHTML += `
+            <tr>
+                <td><input type="text"></td>
+            </tr>
+            `
+
+
+        }
+        
+    </script>
+</head>
+
+<body>
+    <h1>Let's make a recipe ^_^</h1>
+    <p>recipe name:</p>
     <input type="text">
     <br>
     <label for= "meal type">
@@ -41,7 +63,7 @@
         type="text">
 
 <br>
-<table>
+<table id="ingredient-table">
     <tr>
         <th>Amount</th>
         <th>Ingredient</th>
@@ -50,11 +72,12 @@
         <td><input type="text"></td>
         <td><input type="text"></td>
     </tr>
+    <!--  Add new table rows here  -->
 </table>
-<button>Add Ingredient</button>
+<button onclick="add_ingredient()">Add Ingredient</button>
 <br>
 
-<table>
+<table id="step-table">
     <tr>
         <th>Step</th>
     </tr>
@@ -62,10 +85,9 @@
         <td><input type="text"></td>
     </tr>
 </table>
-<button>Add Step</button>
+<button onclick="add_step()">Add Step</button>
 <br>
 
 
-</form>
 <button>Submit</button>
     </body>
