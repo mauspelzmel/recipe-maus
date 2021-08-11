@@ -1,0 +1,71 @@
+
+    <head>
+        <link rel="stylesheet"
+        href = "style.css">
+    </head>
+
+    <body>
+<h1>Let's make a recipe ^_^</h1>
+<form action="view-recipes.html">
+    <p>recipe name:
+    </p>
+    <input type="text">
+    <br>
+    <label for= "meal type">
+        meal type:</label>
+    <select name="meal type" 
+            id="meal type">
+        <option value="main">main</option>
+        <option value="side">side</option>
+    </select>
+    <br>
+    <label for="serving size">
+        serving size:</label>
+    <input name="serving size" 
+            id= "serving size" 
+            type="number">
+        
+    <br>
+
+    <label for="prep time">
+            prep time:</label>
+    <input name="prep time" 
+            id= "prep time" 
+            type="text">
+
+    <br>
+    <label for="cook time">
+        cook time:</label>
+<input name="cook time" 
+        id= "cook time" 
+        type="text">
+
+<br>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>Ingredient</th>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+</table>
+<button>Add Ingredient</button>
+<br>
+
+<table>
+    <tr>
+        <th>Step</th>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+    </tr>
+</table>
+<button>Add Step</button>
+<br>
+
+
+</form>
+<button>Submit</button>
+    </body>

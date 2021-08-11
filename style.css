@@ -1,0 +1,65 @@
+body {
+    background-color: blanchedalmond;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    display: inline;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+
+button{
+    border: cornflowerblue;
+    color: cadetblue;
+    background-color: cornsilk;
+    font-family:'Courier New', Courier, monospace;
+    font: bolder;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+}
+input{
+    border:none; 
+    color: cadetblue;
+    background-color: cornsilk;
+    font-family:'Courier New', Courier, monospace;
+    font: bolder;
+    font-size: 15px;
+}
+select {
+    border: none;
+    color: cadetblue;
+    background-color: cornsilk;
+    font-family:'Courier New', Courier, monospace;
+    font: bolder;
+    font-size: 15px;
+}
+table {
+    margin: 10px 0 10px 0;
+}
+th {
+    background-color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    border: 1px solid cornflowerblue;
+}
+tr {
+    background-color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    border: 1px solid cornflowerblue; 
+}
